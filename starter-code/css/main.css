@@ -7,4 +7,64 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 10px;
+}
+
+#main-container{
+  width: 100vw;
+  height: 45vh;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#info-container{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+#phones img{
+  max-height: 60vh;
+  margin-right: 4vw;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-info{
+  width: 40vw;
+}
+
+#main-info button{
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#text{
+  width: 60em;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 47em;
+  padding: 1em 3.5em;
+}
+
+h1{
+  width: 10.5em;
+  color:#06365f;
+  font-size: 2.3em;
+}
+
+#text p{
+  width: 26em;
+  font-size: 1.5em;
 }
